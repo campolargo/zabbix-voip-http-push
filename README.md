@@ -1,0 +1,1 @@
+# zabbix-voip-http-push
