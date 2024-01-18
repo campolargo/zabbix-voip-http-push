@@ -54,7 +54,7 @@ def load_hosts():
     try:
         with open("hosts.csv", newline="") as file:
             hosts_csv = csv.DictReader(file)
-            HOSTS = {host["MAC"]: host["Nome"] for host in hosts_csv}
+            HOSTS = {host["MAC"]: host["Name"] for host in hosts_csv}
     except FileNotFoundError:
         pass
 
